@@ -104,7 +104,3 @@ PRINT 'ERROR MESSAGE' + CAST(ERROR_MESSAGE() AS NVARCHAR);
 PRINT '==================================================='
 END CATCH
 END
-
-
-SELECT COUNT(*)
-FROM BRONZE.crm_cust_info 
