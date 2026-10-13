@@ -45,7 +45,7 @@ ON		   ci.cst_key=la.cid
 GO
 
 --==============================================================================
-    CREATING:gold.di_products
+--CREATING:gold.di_products
 --==============================================================================
 IF OBJECT_ID('gold.di_products', 'V') IS NOT NULL
     DROP VIEW gold.di_products;
@@ -72,7 +72,7 @@ WHERE prd_end_date is null
 GO
 
   --==============================================================================
-    CREATING:gold.fact_sales
+--CREATING:gold.fact_sales
 --==============================================================================
 
   IF OBJECT_ID('gold.fact_sales', 'V') IS NOT NULL
