@@ -1,6 +1,8 @@
 
 <div align="center">
-  <img src="data-warehouse-cover.png" alt="SQL Data Warehouse Project Cover" width="100%">
+  <img src="data-warehouse-cover.png"
+       alt="SQL Data Warehouse Project"
+       width="100%">
 </div>
 
 # SQL Data Warehouse Project
